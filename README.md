@@ -16,6 +16,7 @@ This project runs with .Net 4 Framework
 - Windows 7 (included with OS)
 - Windows 8 +
 - Windows Server 2008
+- Windows Server 2012
 
 ## Usage
 Usage defers a little
