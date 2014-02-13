@@ -26,7 +26,7 @@ Usage defers a little
   --dlm or -d=",": Delimiter between fields =tab for tab, =0x## to specify a character code in hex
   --header or -h=false: Treat file as having the first row as a header row
   --save-to="": If set, sqlite3 db is left on disk at this path
-  --source or -s="stdin": Source file to load
+  --source or -s: Source file to load (Required)
   --sql or -q="": SQL Command(s) to run on the data
   --table-name or -t="tbl": Override the default table name (tbl)
   --verbose or -v=false: Enable verbose logging
