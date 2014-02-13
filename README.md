@@ -37,10 +37,13 @@ Example session taken on the original repo [textql for go language](https://gith
 ![textql_usage_session](https://raw.github.com/dinedal/textql/master/textql_usage.gif)
 
 
-```
+### Discussing ideas 
+
+* [Trello Board](https://trello.com/b/9kdtGJb4/textql-net) - add ideas, or claim an idea and start working on it!
 
 ## License
 
 New MIT License - Copyright (c) 2014, Joan Caron
 
 See LICENSE for details
+
