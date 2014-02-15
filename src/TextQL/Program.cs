@@ -439,16 +439,16 @@ namespace TextQL
                 value = Encoding.ASCII.GetString(bytes);
 
                 //Replace spaces 
-                value = Regex.Replace(value, @"\s", "-", RegexOptions.Compiled);
+                value = Regex.Replace(value, @"\s", "_", RegexOptions.Compiled);
 
                 //Remove invalid chars 
                 value = Regex.Replace(value, @"[^\w\s\p{Pd}]", "", RegexOptions.Compiled);
 
-                //Trim dashes from end 
-                value = value.Trim('-', '_');
+                //Trim underscores from end 
+                value = value.Trim('_');
 
-                //Replace double occurences of - or \_ 
-                value = Regex.Replace(value, @"([-_]){2,}", "$1", RegexOptions.Compiled);
+                //Replace double occurences of underscores 
+                value = Regex.Replace(value, @"([_]){2,}", "$1", RegexOptions.Compiled);
             }
 
             return value;
