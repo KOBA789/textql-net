@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/tj48rav8s0vso4gf?svg=true)](https://ci.appveyor.com/project/joancaron/textql-net)
+
 # TextQL .Net
 
 This is a .Net version of the tiny but great tool [textql](https://github.com/dinedal/textql)
